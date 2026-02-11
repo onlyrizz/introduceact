@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+ <head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+   integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+   <title>Custom Navbar</title>
+   <style>
+     .navbar-custom {
+       background: linear-gradient(90deg, #B2BEB5, #B2BEB5); /* grey gradient */
+     }
+     .navbar-custom .nav-link,
+     .navbar-custom .navbar-brand {
+       color: #000; /* black text */
+     }
+     .navbar-custom .nav-link:hover {
+       color: #f0ad4e; /* gold hover for contrast */
+     }
+     .navbar {
+       height: 56px;
+       align-items: center;
+     }
+   </style>
+ </head>
+ <body>
+   <!-- Unique Color Navbar -->
+   <nav class="navbar navbar-expand-lg navbar-custom">
+     <!-- Toggler for mobile -->
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+       aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+     <!-- Navbar Links -->
+     <div class="collapse navbar-collapse" id="navbarNavDropdown">
+       <ul class="navbar-nav mr-auto">
+         <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+         <li class="nav-item"><a class="nav-link" href="hobbies.html">Hobbies</a></li>
+         <li class="nav-item"><a class="nav-link" href="music.html">Music</a></li>
+         <li class="nav-item"><a class="nav-link" href="dreams.html">Dream Places</a></li>
+         <li class="nav-item"><a class="nav-link" href="goals.html">Goals</a></li>
+       </ul>
+       <!-- Search Form -->
+       <form class="form-inline my-2 my-lg-0">
+         <input class="form-control mr-sm-2" type="search" placeholder="Search">
+         <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+       </form>
+     </div>
+   </nav>
+   <!-- Page Content -->
+   <div class="container mt-5">
+     <h1>Goals</h1>
+     <p>Setting goals helps me stay motivated and focused on the future. I believe that having clear objectives gives direction and purpose to everything I do. Here are some of the goals I’m working toward:</p>
+   </div>
+   <!-- JS -->
+   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+ </body>
+</html>
